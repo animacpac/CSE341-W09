@@ -23,6 +23,7 @@ function lettersSCalc(weight) {
 
   }
   
+  
   function lettersMCalc(weight) {
   
     var result;
