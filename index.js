@@ -118,7 +118,7 @@ app.get('/postageDisplay', function(request, response) {
       }
     }
     
-    function parcelsCalc(weight) {
+    function firstClass(weight) {
     
         var result;
     
@@ -166,8 +166,8 @@ app.get('/postageDisplay', function(request, response) {
     else if (postageType == "envelopes") {
       result = envelopesCalc(weight);
     }
-    else if (postageType == "parcels") {
-      result = parcelsCalc(weight);
+    else if (postageType == "firstClass") {
+      result = firstClass(weight);
     }
   
     
